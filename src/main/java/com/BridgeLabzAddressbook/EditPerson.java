@@ -9,6 +9,13 @@ public class EditPerson {
 
 	public static List<EditPerson> addressBookList = new ArrayList<>();
 	Scanner sc = new Scanner(System.in);
+	private String lastName;
+	private String address;
+	private String phoneNumber;
+	private String firstName;
+	private String city;
+	private String zip;
+	private String email;
 	public  void display() {
 		Iterator itr=addressBookList.iterator();  
 		if(addressBookList.isEmpty()) {
